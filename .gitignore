@@ -219,21 +219,12 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Local VLR API
-/vlrggapi/
+# Local files
 /.idea/.gitignore
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/inspectionProfiles/profiles_settings.xml
-/rounds.csv
 /.idea/vcs.xml
 /.idea/vlr-round-predictor.iml
 /.idea/vlrggapi.iml
-/vlrggapi/node_modules/.package-lock.json
-/vlrggapi/node_modules/uv/index.d.ts
-/vlrggapi/node_modules/uv/index.js
-/vlrggapi/node_modules/uv/LICENSE
-/vlrggapi/node_modules/uv/package.json
-/vlrggapi/package.json
-/vlrggapi/package-lock.json
-/vlrggapi/node_modules/uv/README.md
+/rounds.csv

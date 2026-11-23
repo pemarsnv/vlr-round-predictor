@@ -1,11 +1,12 @@
 wip stay tuned ;)
 
-step 1 : data retrieval 
+step 1 : train on global data 
 
-first, what data do i want? 
-technically, i could use all the games present on vlr but i dont want to fry the pc :-( therefore, focus on VCT data
+the point of this is to be able to predict matches results for vct 2027 season, for which we have no data currently (plus a lot of drastical changes in rosters!)
+therefore, we first need to train the model on "regular" data : data about how a valorant match regularly goes. therefore, i am going to train it on data of vct matches for the past years to help it understand the impact of economy etc etc
 
-i want to be able to vizualise it too, so first step is having a proper dataset and creating a small interface tos
-showcase data on it
+step 1-1: data retrieval
+step 1-2: training
 
-step 2 : 
+step 2 : train on specific data
+coming soon

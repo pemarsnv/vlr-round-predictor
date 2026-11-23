@@ -141,6 +141,11 @@ def get_all_rounds_from_matches(matches_ids):
             continue
 
         data = response.json()
+        if not data["data"]["segments"]:
+            print(f"No data found for match {match_id}.")
+            continue
+
+        print(data["data"])
         game = data["data"]["segments"][0]
 
         if not game["rounds"]:
